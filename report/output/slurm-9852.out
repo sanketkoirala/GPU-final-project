@@ -1,0 +1,167 @@
+-- Found system libgputk:
+--     include: /usr/local/libgputk/include
+--     library: /usr/local/libgputk/lib
+-- GPUTK_FOUND: /home/sxk8131/labs/GPU-Final-Project-KMeans/third_party/libgputk
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sxk8131/labs/GPU-Final-Project-KMeans/build
+Consolidate compiler generated dependencies of target kmeans_cmem_test
+Consolidate compiler generated dependencies of target kmeans_datagen
+Consolidate compiler generated dependencies of target kmeans_cpu_test
+Consolidate compiler generated dependencies of target kmeans_basic_test
+Consolidate compiler generated dependencies of target kmeans_shared_test
+Consolidate compiler generated dependencies of target kmeans_final_test
+[ 12%] Built target kmeans_cmem_test
+Consolidate compiler generated dependencies of target kmeans_coarse_test
+Consolidate compiler generated dependencies of target kmeans_coalesced_test
+[ 33%] Built target kmeans_final_test
+[ 45%] Built target kmeans_cpu_test
+[ 50%] Built target kmeans_shared_test
+[ 75%] Built target kmeans_datagen
+[ 87%] Built target kmeans_basic_test
+[ 87%] Built target kmeans_coarse_test
+[100%] Built target kmeans_coalesced_test
+
+**********************************
+* Running KMeansBasic tests (Phase 1) *
+**********************************
+Test data/0
+The solution is correct
+Test data/1
+The solution is correct
+Test data/2
+The solution is correct
+Test data/3
+The solution is correct
+Test data/4
+The solution is correct
+Test data/5
+The solution is correct
+Test data/6
+The solution is correct
+Test data/7
+The solution is correct
+Test data/8
+The solution is correct
+Test data/9
+The solution is correct
+
+**********************************
+* Running KMeansCMem tests (Phase 2) *
+**********************************
+Test data/0
+The solution is correct
+Test data/1
+The solution is correct
+Test data/2
+The solution is correct
+Test data/3
+The solution is correct
+Test data/4
+The solution is correct
+Test data/5
+The solution is correct
+Test data/6
+The solution is correct
+Test data/7
+The solution is correct
+Test data/8
+The solution is correct
+Test data/9
+The solution is correct
+
+**********************************
+* Running KMeansShared tests (Phase 3) *
+**********************************
+Test data/0
+The solution is correct
+Test data/1
+The solution is correct
+Test data/2
+The solution is correct
+Test data/3
+The solution is correct
+Test data/4
+The solution is correct
+Test data/5
+The solution is correct
+Test data/6
+The solution is correct
+Test data/7
+The solution is correct
+Test data/8
+The solution is correct
+Test data/9
+The solution is correct
+
+**********************************
+* Running KMeansCoarse tests (Phase 4) *
+**********************************
+Test data/0
+The solution is correct
+Test data/1
+The solution is correct
+Test data/2
+The solution is correct
+Test data/3
+The solution is correct
+Test data/4
+The solution is correct
+Test data/5
+The solution is correct
+Test data/6
+The solution is correct
+Test data/7
+The solution is correct
+Test data/8
+The solution is correct
+Test data/9
+The solution is correct
+
+**********************************
+* Running KMeansCoalesced tests (Phase 5) *
+**********************************
+Test data/0
+The solution is correct
+Test data/1
+The solution is correct
+Test data/2
+The solution is correct
+Test data/3
+The solution is correct
+Test data/4
+The solution is correct
+Test data/5
+The solution is correct
+Test data/6
+The solution is correct
+Test data/7
+The solution is correct
+Test data/8
+The solution is correct
+Test data/9
+The solution is correct
+
+**********************************
+* Running KMeansFinal tests (Phase 6) *
+**********************************
+Test data/0
+The solution is correct
+Test data/1
+The solution is correct
+Test data/2
+The solution is correct
+Test data/3
+The solution is correct
+Test data/4
+The solution is correct
+Test data/5
+The solution is correct
+Test data/6
+The solution is correct
+Test data/7
+The solution is correct
+Test data/8
+The solution is correct
+Test data/9
+The solution is correct

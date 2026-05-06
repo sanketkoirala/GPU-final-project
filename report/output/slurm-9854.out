@@ -1,0 +1,46 @@
+-- Found system libgputk:
+--     include: /usr/local/libgputk/include
+--     library: /usr/local/libgputk/lib
+-- GPUTK_FOUND: /home/sxk8131/labs/GPU-Final-Project-KMeans/third_party/libgputk
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sxk8131/labs/GPU-Final-Project-KMeans/build
+Consolidate compiler generated dependencies of target kmeans_cpu_test
+Consolidate compiler generated dependencies of target kmeans_datagen
+Consolidate compiler generated dependencies of target kmeans_cmem_test
+Consolidate compiler generated dependencies of target kmeans_basic_test
+Consolidate compiler generated dependencies of target kmeans_final_test
+Consolidate compiler generated dependencies of target kmeans_shared_test
+Consolidate compiler generated dependencies of target kmeans_coalesced_test
+[ 12%] Built target kmeans_cpu_test
+Consolidate compiler generated dependencies of target kmeans_coarse_test
+[ 25%] Built target kmeans_basic_test
+[ 37%] Built target kmeans_datagen
+[ 50%] Built target kmeans_final_test
+[ 62%] Built target kmeans_shared_test
+[ 75%] Built target kmeans_cmem_test
+[ 87%] Built target kmeans_coarse_test
+[100%] Built target kmeans_coalesced_test
+**********************************
+* Running KMeansCPU tests (Phase 0) *
+**********************************
+Test data/0
+The solution is correct
+Test data/1
+The solution is correct
+Test data/2
+The solution is correct
+Test data/3
+The solution is correct
+Test data/4
+The solution is correct
+Test data/5
+The solution is correct
+Test data/6
+The solution is correct
+Test data/7
+The solution is correct
+Test data/8
+The solution is correct
+Test data/9
+The solution is correct

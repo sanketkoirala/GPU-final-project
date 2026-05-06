@@ -1,0 +1,18 @@
+Benchmarking Phase 1: KMeansBasic
+The solution is correct
+
+Benchmarking Phase 2: KMeansCMem
+The solution is correct
+
+Benchmarking Phase 3: KMeansShared
+The solution is correct
+
+Benchmarking Phase 4: KMeansCoarse
+The solution is correct
+
+Benchmarking Phase 5: KMeansCoalesced
+The solution is correct
+
+Benchmarking Phase 6: KMeansFinal
+The solution is correct
+

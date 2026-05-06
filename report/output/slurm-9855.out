@@ -1,0 +1,260 @@
+-- Found system libgputk:
+--     include: /usr/local/libgputk/include
+--     library: /usr/local/libgputk/lib
+-- GPUTK_FOUND: /home/sxk8131/labs/GPU-Final-Project-KMeans/third_party/libgputk
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sxk8131/labs/GPU-Final-Project-KMeans/build
+Consolidate compiler generated dependencies of target kmeans_datagen
+Consolidate compiler generated dependencies of target kmeans_cpu_test
+Consolidate compiler generated dependencies of target kmeans_basic_test
+Consolidate compiler generated dependencies of target kmeans_cmem_test
+Consolidate compiler generated dependencies of target kmeans_coalesced_test
+Consolidate compiler generated dependencies of target kmeans_coarse_test
+Consolidate compiler generated dependencies of target kmeans_shared_test
+[ 12%] Built target kmeans_datagen
+Consolidate compiler generated dependencies of target kmeans_final_test
+[ 25%] Built target kmeans_cpu_test
+[ 37%] Built target kmeans_cmem_test
+[ 50%] Built target kmeans_coarse_test
+[ 62%] Built target kmeans_coalesced_test
+[ 75%] Built target kmeans_basic_test
+[ 87%] Built target kmeans_shared_test
+[100%] Built target kmeans_final_test
+**********************************
+* Running KMeansCPU tests (Phase 0) *
+**********************************
+Test data/0
+[time] N=1024 D=2 K=4 0.486 ms
+The solution is correct
+Test data/1
+[time] N=4096 D=4 K=8 5.166 ms
+The solution is correct
+Test data/2
+[time] N=16384 D=8 K=8 36.079 ms
+The solution is correct
+Test data/3
+[time] N=65536 D=16 K=16 502.693 ms
+The solution is correct
+Test data/4
+[time] N=262144 D=32 K=16 3975.710 ms
+The solution is correct
+Test data/5
+[time] N=524288 D=32 K=32 15562.188 ms
+The solution is correct
+Test data/6
+[time] N=1048576 D=64 K=32 57490.006 ms
+The solution is correct
+Test data/7
+[time] N=1048576 D=128 K=32 115814.221 ms
+The solution is correct
+Test data/8
+[time] N=2097152 D=64 K=64 225796.421 ms
+The solution is correct
+Test data/9
+[time] N=2097152 D=128 K=64 458446.741 ms
+The solution is correct
+
+**********************************
+* Running KMeansBasic tests (Phase 1) *
+**********************************
+Test data/0
+[time] N=1024 D=2 K=4 0.560 ms
+The solution is correct
+Test data/1
+[time] N=4096 D=4 K=8 0.730 ms
+The solution is correct
+Test data/2
+[time] N=16384 D=8 K=8 2.578 ms
+The solution is correct
+Test data/3
+[time] N=65536 D=16 K=16 14.806 ms
+The solution is correct
+Test data/4
+[time] N=262144 D=32 K=16 129.546 ms
+The solution is correct
+Test data/5
+[time] N=524288 D=32 K=32 359.048 ms
+The solution is correct
+Test data/6
+[time] N=1048576 D=64 K=32 1431.371 ms
+The solution is correct
+Test data/7
+[time] N=1048576 D=128 K=32 2661.051 ms
+The solution is correct
+Test data/8
+[time] N=2097152 D=64 K=64 5060.096 ms
+The solution is correct
+Test data/9
+[time] N=2097152 D=128 K=64 10080.330 ms
+The solution is correct
+
+**********************************
+* Running KMeansCMem tests (Phase 2) *
+**********************************
+Test data/0
+[time] N=1024 D=2 K=4 0.718 ms
+The solution is correct
+Test data/1
+[time] N=4096 D=4 K=8 0.908 ms
+The solution is correct
+Test data/2
+[time] N=16384 D=8 K=8 2.742 ms
+The solution is correct
+Test data/3
+[time] N=65536 D=16 K=16 14.532 ms
+The solution is correct
+Test data/4
+[time] N=262144 D=32 K=16 125.123 ms
+The solution is correct
+Test data/5
+[time] N=524288 D=32 K=32 340.518 ms
+The solution is correct
+Test data/6
+[time] N=1048576 D=64 K=32 1395.260 ms
+The solution is correct
+Test data/7
+[time] N=1048576 D=128 K=32 2590.398 ms
+The solution is correct
+Test data/8
+[time] N=2097152 D=64 K=64 4916.909 ms
+The solution is correct
+Test data/9
+[time] N=2097152 D=128 K=64 9791.596 ms
+The solution is correct
+
+**********************************
+* Running KMeansShared tests (Phase 3) *
+**********************************
+Test data/0
+[time] N=1024 D=2 K=4 0.847 ms
+The solution is correct
+Test data/1
+[time] N=4096 D=4 K=8 1.018 ms
+The solution is correct
+Test data/2
+[time] N=16384 D=8 K=8 3.140 ms
+The solution is correct
+Test data/3
+[time] N=65536 D=16 K=16 13.773 ms
+The solution is correct
+Test data/4
+[time] N=262144 D=32 K=16 80.517 ms
+The solution is correct
+Test data/5
+[time] N=524288 D=32 K=32 144.913 ms
+The solution is correct
+Test data/6
+[time] N=1048576 D=64 K=32 611.173 ms
+The solution is correct
+Test data/7
+[time] N=1048576 D=128 K=32 1020.578 ms
+The solution is correct
+Test data/8
+[time] N=2097152 D=64 K=64 1636.087 ms
+The solution is correct
+Test data/9
+[time] N=2097152 D=128 K=64 3224.374 ms
+The solution is correct
+
+**********************************
+* Running KMeansCoarse tests (Phase 4) *
+**********************************
+Test data/0
+[time] N=1024 D=2 K=4 0.862 ms
+The solution is correct
+Test data/1
+[time] N=4096 D=4 K=8 1.184 ms
+The solution is correct
+Test data/2
+[time] N=16384 D=8 K=8 3.448 ms
+The solution is correct
+Test data/3
+[time] N=65536 D=16 K=16 28.165 ms
+The solution is correct
+Test data/4
+[time] N=262144 D=32 K=16 253.028 ms
+The solution is correct
+Test data/5
+[time] N=524288 D=32 K=32 863.132 ms
+The solution is correct
+Test data/6
+[time] N=1048576 D=64 K=32 4625.691 ms
+The solution is correct
+Test data/7
+[time] N=1048576 D=128 K=32 15896.066 ms
+The solution is correct
+Test data/8
+[time] N=2097152 D=64 K=64 17838.021 ms
+The solution is correct
+Test data/9
+[time] N=2097152 D=128 K=64 62698.004 ms
+The solution is correct
+
+**********************************
+* Running KMeansCoalesced tests (Phase 5) *
+**********************************
+Test data/0
+[time] N=1024 D=2 K=4 0.796 ms
+The solution is correct
+Test data/1
+[time] N=4096 D=4 K=8 0.975 ms
+The solution is correct
+Test data/2
+[time] N=16384 D=8 K=8 2.858 ms
+The solution is correct
+Test data/3
+[time] N=65536 D=16 K=16 13.175 ms
+The solution is correct
+Test data/4
+[time] N=262144 D=32 K=16 79.477 ms
+The solution is correct
+Test data/5
+[time] N=524288 D=32 K=32 221.282 ms
+The solution is correct
+Test data/6
+[time] N=1048576 D=64 K=32 880.005 ms
+The solution is correct
+Test data/7
+[time] N=1048576 D=128 K=32 1750.770 ms
+The solution is correct
+Test data/8
+[time] N=2097152 D=64 K=64 4461.245 ms
+The solution is correct
+Test data/9
+[time] N=2097152 D=128 K=64 8814.537 ms
+The solution is correct
+
+**********************************
+* Running KMeansFinal tests (Phase 6) *
+**********************************
+Test data/0
+[time] N=1024 D=2 K=4 1.090 ms
+The solution is correct
+Test data/1
+[time] N=4096 D=4 K=8 1.275 ms
+The solution is correct
+Test data/2
+[time] N=16384 D=8 K=8 1.827 ms
+The solution is correct
+Test data/3
+[time] N=65536 D=16 K=16 10.476 ms
+The solution is correct
+Test data/4
+[time] N=262144 D=32 K=16 103.815 ms
+The solution is correct
+Test data/5
+[time] N=524288 D=32 K=32 309.539 ms
+The solution is correct
+Test data/6
+[time] N=1048576 D=64 K=32 1188.416 ms
+The solution is correct
+Test data/7
+[time] N=1048576 D=128 K=32 2312.450 ms
+The solution is correct
+Test data/8
+[time] N=2097152 D=64 K=64 3785.082 ms
+The solution is correct
+Test data/9
+[time] N=2097152 D=128 K=64 7478.907 ms
+The solution is correct
